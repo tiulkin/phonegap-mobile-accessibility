@@ -24,15 +24,11 @@ package com.phonegap.plugin.mobileaccessibility;
 import android.accessibilityservice.AccessibilityServiceInfo;
 import android.annotation.TargetApi;
 import android.content.Context;
-import android.view.accessibility.AccessibilityManager.TouchExplorationStateChangeListener;
-import android.view.accessibility.CaptioningManager;
-import android.view.accessibility.CaptioningManager.CaptioningChangeListener;
 
 @TargetApi(19)
 public class KitKatMobileAccessibilityHelper extends
         JellyBeanMobileAccessibilityHelper {
-    protected CaptioningManager mCaptioningManager;
-    protected CaptioningChangeListener mCaptioningChangeListener;
+  
     //protected TouchExplorationStateChangeListener mTouchExplorationStateChangeListener;
 
 }
